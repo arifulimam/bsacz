@@ -56,10 +56,10 @@ body {
   }
 }
 #gtco-main-nav {
-  padding: 20px 0;
+  padding: 30px 0;
 }
 #gtco-main-nav .navbar-brand {
-  font-size: 36px;
+  font-size: 42px;
   font-family: "Lato-Black";
   text-transform: uppercase;
   background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
@@ -72,6 +72,11 @@ body {
   -webkit-text-fill-color: transparent;
   -ms-text-fill-color: transparent;
   -o-text-fill-color: transparent;
+}
+#gtco-main-nav .navbar-brand-logo{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
 }
 #gtco-main-nav .bar1, #gtco-main-nav .bar2, #gtco-main-nav .bar3 {
   width: 25px;
@@ -118,8 +123,8 @@ body {
 }
 @media (max-width: 991px) {
   #gtco-main-nav form a.btn-outline-dark {
-    border-color: #1d3ede;
-    color: #1d3ede;
+    border-color: #11457E;
+    color: #D7141A;
   }
 }
 #gtco-main-nav::after {
@@ -127,12 +132,12 @@ body {
   content: "";
   height: 600px;
   width: 900px;
-  background-image: -webkit-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: -moz-linear-gradient(-220deg, #1d3ede, #01e6f8);
+  background-image: -webkit-linear-gradient(-220deg, #11457E, #0D7141A);
+  background-image: -moz-linear-gradient(-220deg, #11457E, #01e6f8);
   background-image: -ms-linear-gradient(-220deg, #1d3ede, #01e6f8);
   background-image: -o-linear-gradient(-220deg, #1d3ede, #01e6f8);
   background-image: linear-gradient(-220deg, #1d3ede, #01e6f8);
-  left: 49.5%;
+  left: 56%;
   top: -50px;
   z-index: -1;
   border-radius: 50% 0 50% 50%;
@@ -171,7 +176,7 @@ body {
   background-image: -ms-linear-gradient(to right, #e8eefc, #e6fafe);
   background-image: -o-linear-gradient(to right, #e8eefc, #e6fafe);
   background-image: linear-gradient(to right, #e8eefc, #e6fafe);
-  left: 47.5%;
+  left: 54.5%;
   top: -25px;
   z-index: -1;
   border-radius: 50% 0 50% 50%;
